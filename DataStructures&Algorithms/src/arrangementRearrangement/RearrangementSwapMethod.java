@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RearrangementSwapMethod {
 	public static int[] swapMethod(int[] arr,int n) {
-		for(int i=0;i<n;i++) {
+		for(int i=0;i<n;) {
 			if(arr[i] != -1 && arr[i] != i) {
 				int ele = arr[arr[i]];
 				arr[arr[i]] = arr[i];
