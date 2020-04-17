@@ -8,7 +8,7 @@ import java.io.Serializable;
 class Student implements Serializable{
 	int id;
 	String name;
-	
+	float num = 1234;
 	Student(int id, String name){
 		this.id = id;
 		this.name = name;
