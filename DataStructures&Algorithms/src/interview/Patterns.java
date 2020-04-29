@@ -11,14 +11,18 @@ public class Patterns {
 		 6 5 4|4 5 6
 		 6 5 5|5 5 6
 		 6 6 6|6 6 6
+		 
 		 ---->then for the first part update the min of two values btwn
 		 i-0 && j-0 then subtract from n value
 		 We here simply subtract the rows or cols value from the initial stage
+		 
 		 ----> same method for second part here we take the diff btwn 
 		 i-0 && (n-1)-j then subtract from n value
 		 We here simply subtract the rows and cols value, calculating how far it is inside the boundary
+		 
 		 ----> Update the diff btwn 
 		 j-0 && (n-1)-i then subtract from n value
+		 
 		 ----> This is crucial update the diff btwn 
 		 (n-1)-i && (n-1)-j then subtract from n value 
 		 */
